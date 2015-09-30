@@ -1,0 +1,19 @@
+{
+  "name": "Amazon To Backpack",
+  "version": "1.0",
+  "manifest_version": 2,
+  "background": {
+    "scripts": [ "background.js" ],
+    "persistent": false
+  },
+  "page_action": {
+    "default_icon": {
+      "19": "icon.png",
+      "38": "icon.png"
+    },
+    "default_title": "Open in Backpack"
+  },
+  "permissions": [
+    "declarativeContent"
+  ]
+}

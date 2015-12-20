@@ -16,7 +16,7 @@ chrome.runtime.onInstalled.addListener(function () {
 chrome.pageAction.onClicked.addListener(function (tab) {
     var amazonUrl = tab.url;
     var asin = amazonUrl.match("/([a-zA-Z0-9]{10})(?:[/?]|$)");
-    var backpackUrl = 'https://www.backpackbang.com/item?ASIN=' + asin[1];
+    var backpackUrl = 'https://backpackbang.com/item#' + asin[1];
 
     chrome.tabs.create({ url: backpackUrl });
 });

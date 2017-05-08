@@ -1,6 +1,6 @@
 {
   "name": "Amazon To Backpack",
-  "version": "1.3",
+  "version": "1.4",
   "manifest_version": 2,
   "background": {
     "scripts": [ "background.js" ],

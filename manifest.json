@@ -1,5 +1,6 @@
 {
   "name": "Amazon To Backpack",
+  "description": "Easily open Amazon product page links in Backpack.",
   "version": "1.4",
   "manifest_version": 2,
   "background": {
